@@ -12,6 +12,7 @@
 		FEA52B561B42830C004093D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA52B551B42830C004093D5 /* Images.xcassets */; };
 		FEA52B591B42830D004093D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA52B571B42830D004093D5 /* LaunchScreen.xib */; };
 		FEA52B651B42830D004093D5 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA52B641B42830D004093D5 /* __Tests.m */; };
+		FEA52B701B428538004093D5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA52B6F1B428538004093D5 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		FEA52B5E1B42830D004093D5 /* 测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA52B631B42830D004093D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA52B641B42830D004093D5 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		FEA52B6E1B428538004093D5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FEA52B6F1B428538004093D5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				FEA52B521B42830C004093D5 /* AppDelegate.h */,
 				FEA52B531B42830C004093D5 /* AppDelegate.m */,
+				FEA52B6E1B428538004093D5 /* RootViewController.h */,
+				FEA52B6F1B428538004093D5 /* RootViewController.m */,
 				FEA52B551B42830C004093D5 /* Images.xcassets */,
 				FEA52B571B42830D004093D5 /* LaunchScreen.xib */,
 				FEA52B4E1B42830C004093D5 /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				FEA52B541B42830C004093D5 /* AppDelegate.m in Sources */,
 				FEA52B511B42830C004093D5 /* main.m in Sources */,
+				FEA52B701B428538004093D5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +406,7 @@
 				FEA52B6A1B42830D004093D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEA52B6B1B42830D004093D5 /* Build configuration list for PBXNativeTarget "测试Tests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +415,7 @@
 				FEA52B6D1B42830D004093D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
